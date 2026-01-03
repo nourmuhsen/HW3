@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="Travel.svg">
+</head>
+<body>
+    <h1><img src="../Assets/Employee gif.gif" style="width: 100px; height: 100px;" alt="Employee GIF">Employee Registration Form</h1>
+    <form>
+        <div style="margin-left: 150px;">
+            <input type="radio" name="title" value="Mr."> Mr.
+            <input type="radio" name="title" value="Mrs."> Mrs.
+            <input type="radio" name="title" value="Ms."> Ms.
+        </div>
+        <br>
+        <label for="firstName" style="margin-right: 80px;">First Name</label>
+        <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+        <br>
+        <label for="lastName" style="margin-right: 82px;">Last Name</label>
+        <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+        <br>
+        <label for="mail 1" style="margin-right: 54px;">Mail Address 1</label>
+        <input type="text" id="mail 1" name="mail 1" required>
+        <br>
+        <label for="mail 2" style="margin-right: 54px;">Mail Address 2</label>
+        <input type="text" id="mail 2" name="mail 2">
+        <br>
+        <label for="City" style="margin-right: 124px;">City</label>
+        <input type="text" id="City" name="City" required>
+        <br>
+        <label for="state" style="margin-right: 119px;">State</label>
+        <select name="state" id="state">
+            <option value="Gujarat" selected>Gujarat</option>
+        </select>
+        <br>
+        <label for="zip" style="margin-right: 128px;">Zip</label>
+        <input type="text" id="zip" name="zip" required>
+        <br>
+        <label for="photo" style="margin-right: 61px;">Upload Photo</label>
+        <input type="file" id="photo" name="photo">
+        <br>
+        <label for="email" style="margin-right: 110px;">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email">
+        <br>
+        <label for="mobile" style="margin-right: 102px;">Mobile</label>
+        <input type="tel" id="mobile" name="mobile" placeholder="Mobile">
+        <br>
+        <label for="languages" style="margin-right: 24px;">Languages Known</label>
+        <input type="checkbox" id="gujarati" name="languages" value="Gujarati">Gujarati
+        <br>
+        <div style="margin-left: 148px;">
+            <input type="checkbox" id="hindi" name="languages" value="Hindi">Hindi
+            <br>
+            <input type="checkbox" id="english" name="languages" value="English">English
+            <br>
+            <input type="checkbox" id="marathi" name="languages" value="Marathi">Marathi
+            <br>
+        </div>
+        <div style="align-items: center; display: flex;">
+            <label for="additional info">Additional Information</label>
+            <textarea rows="4" cols="30" name="additional info" id="additional info" placeholder="Optional"></textarea>
+        </div>
+        <br>
+        <div style="margin-left: 150px;">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>
